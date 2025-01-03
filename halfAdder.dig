@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>i_A</string>
+        </entry>
+      </elementAttributes>
+      <pos x="360" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>o_Cout</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1020" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>i_B</string>
+        </entry>
+      </elementAttributes>
+      <pos x="360" y="540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>o_S</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1020" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Testcase</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Tests</string>
+        </entry>
+        <entry>
+          <string>Testdata</string>
+          <testData>
+            <dataString>i_A i_B o_S o_Cout
+0 0 0 0 
+0 1 1 0
+1 0 1 0
+1 1 0 1</dataString>
+          </testData>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="140"/>
+    </visualElement>
+  </visualElements>
+  <wires/>
+  <measurementOrdering/>
+</circuit>
